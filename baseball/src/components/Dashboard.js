@@ -6,16 +6,16 @@ const Dashboard = (props) => {
         <Jumbotron>
             <Row style={{textAlign: 'center'}}>
                 <Col xs='3'>
-                    <Button onClick={ props.strike }>Strike</Button>
+                    <Button onClick={ props.strike } data-testid='strikeButton'>Strike</Button>
                 </Col>
                 <Col xs='3'>
-                    <Button onClick={ props.ball }>Ball</Button>
+                    <Button onClick={ props.ball } data-testid='ballButton'>Ball</Button>
                 </Col>
                 <Col xs='3'>
-                    <Button onClick={ props.foul }>Foul</Button>
+                    <Button onClick={ props.foul } data-testid='foulButton'>Foul</Button>
                 </Col>
                 <Col xs='3'>
-                    <Button onClick={ props.hit }>Hit</Button>
+                    <Button onClick={ props.hit } data-testid='hitButton'>Hit</Button>
                 </Col>
            </Row>
         </Jumbotron>

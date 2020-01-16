@@ -9,14 +9,14 @@ const Display = (props) => {
                 <Col xs='1'></Col>
                 <Col xs='4'>
                     <h4>Balls:</h4>
-                    <div className='display'>
+                    <div className='display' data-testid='ballValue'>
                         { balls }
                     </div>
                 </Col>
                 <Col xs='2'></Col>
                 <Col xs='4'>
                     <h4>Strikes:</h4>
-                    <div className='display'>
+                    <div className='display' data-testid='strikeValue'>
                         { strikes }
                     </div>
                 </Col>
