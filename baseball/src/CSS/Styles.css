@@ -1,0 +1,16 @@
+.spacer {
+    height: 5vh;
+}
+
+.display {
+    font-family: "Ozone";
+    font-size: 5rem;
+    color: red;
+    width: 7rem;
+    text-align: center;
+    background-color: black;
+    margin-top: 1rem;
+    border-radius: 4px;
+    padding: 1.6rem;
+    border: 1px solid white;
+}
