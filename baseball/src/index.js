@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootswatch/dist/slate/bootstrap.min.css'
+import './fonts/Ozone.ttf'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

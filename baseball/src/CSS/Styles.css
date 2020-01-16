@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Ozone';
+    src: local('Ozone'), url(../fonts/Ozone.ttf) format('truetype');
+  }
+
 .spacer {
     height: 5vh;
 }
